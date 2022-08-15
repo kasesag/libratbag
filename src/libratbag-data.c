@@ -60,6 +60,7 @@ enum driver {
 	SINOWEALTH,
 	SINOWEALTH_NUBWO,
 	OPENINPUT,
+	REDRAGON,
 };
 
 struct data_hidpp20 {
@@ -347,6 +348,7 @@ static const struct driver_map {
 	{ SINOWEALTH, "sinowealth", init_data_sinowealth },
 	{ SINOWEALTH_NUBWO, "sinowealth_nubwo", NULL},
 	{ OPENINPUT, "openinput", NULL },
+	{ REDRAGON, "redragon", NULL },
 };
 
 const char *
